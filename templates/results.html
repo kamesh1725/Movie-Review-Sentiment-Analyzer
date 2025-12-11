@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Analysis Results</h1>
+        
+        <h2>Your Review:</h2>
+        <div class="review-display">
+            <p>{{ original_review }}</p>
+        </div>
+
+        <h2>Prediction:</h2>
+        <!-- Use sentiment_class for CSS styling, sentiment_label for text -->
+        <p class="sentiment-result {{ sentiment_class }}">
+            <strong>{{ sentiment_label }}</strong> 
+            (Confidence: {{ confidence }})
+        </p>
+
+        <a href="/">Analyze another review</a>
+    </div>
+</body>
+</html>
