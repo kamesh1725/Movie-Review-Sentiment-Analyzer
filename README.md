@@ -98,4 +98,4 @@ This project is licensed under the MIT License.
 📞 Contact
 Name - kamesh p
 Email Address - kamesh1725@gmail.com
-Project Link:
+Project Link: https://github.com/kamesh1725/Movie-Review-Sentiment-Analyzer.git
